@@ -1,0 +1,42 @@
+
+
+
+footer {
+    width: 100%;
+    padding: 20px;
+    background-color: #f2f2f2;
+     
+}
+footer .footer_grid {
+     
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    gap: 2rem;
+     
+}
+footer .content_footer h5 {
+    margin: 2rem 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+footer .content_footer p {
+    margin-bottom: 1rem;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+footer .content_footer p:hover {
+     color: tomato;
+}
+
+
+
+@media (max-width:973px) and (min-width :734px) {
+    footer .footer_grid  {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 2rem;
+    }
+}

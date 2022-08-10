@@ -1,0 +1,33 @@
+
+.box {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border: 1px solid #ececec;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin-bottom: .75rem;
+    cursor: pointer;
+    transition: .3s;
+}
+.box:hover {
+    transform: translateX(-5px);
+    background-color: #f2f2f2;
+}
+.box img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.box .right-box h2 {
+   font-size: 15px;
+   padding-bottom: 0.2rem;
+}
+.box .right-box h3 {
+    font-size: 12px;
+    font-weight: 400;
+    color: gray;
+ }

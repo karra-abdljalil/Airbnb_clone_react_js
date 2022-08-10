@@ -1,0 +1,51 @@
+
+.landing__page  { 
+    height: 600px;
+    position: relative; 
+    background-image: url(/public/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.landing__page img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.landing__page .content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center; 
+ 
+}
+.landing__page .content p {
+   font-size: 15px;
+}
+.landing__page .content button {
+    color: rgb(96, 94, 196);
+    width: 150px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 1rem 0;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+}
+.landing__page .content button:hover {
+    box-shadow: 0 0 6px 2px #ddd;
+    transform: translateY(-5px);
+}
+.landing__page .content button:active {
+    transform: scale(.90);
+}
+@media (min-width:50em) {
+    .landing__page .content p{
+        font-size: 20px;
+        font-weight: 500;
+     
+    }
+}
